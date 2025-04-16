@@ -1,3 +1,10 @@
+# ESP home
+.esphome/
+
+# Secrets
+.env
+secrets.yaml
+
 # Python-generated files
 __pycache__/
 *.py[oc]
