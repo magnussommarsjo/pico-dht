@@ -25,15 +25,16 @@ wifi:
 # Temperature and humidity sensor
 sensor:
   - platform: dht
+    model: DHT22
     pin: 
       number: GPIO5
       mode:
         input: true
-        pullup: true
+        pullup: false
     temperature:
-      name: "Living Room Temperature"
+      name: "Temperature"
     humidity:
-      name: "Living Room Humidity"
+      name: "Humidity"
       accuracy_decimals: 1
     update_interval: 10s
 
