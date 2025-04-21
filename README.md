@@ -13,6 +13,7 @@ Hardware required:
 It's important that the wiring are according to the following:
 
 - `Power`  3V from pico `3V3(OUT)` to first pin from left on DHT.
+- Data connection from `GP5` on pico to second from the left on DHT.
 - `GND` on pico to 4th pin on DHT (right most).
 
 ![Raspberry Pi Pico Pinout](https://www.raspberrypi.com/documentation/microcontrollers/images/picow-pinout.svg)
@@ -30,5 +31,5 @@ wifi_password: "PASSWORD"
 After this is set up you have to activate the virtual environment and run with your pico connected via usb.
 
 ```sh
-esphome run sensor.yaml
+esphome run example-sensor.yaml
 ```
