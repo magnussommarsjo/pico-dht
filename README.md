@@ -19,8 +19,7 @@ It's important that the wiring are according to the following:
 
 ## Software
 
-Suggestion is to use `uv` as package manager or `pip` to install packages as a venv from the `pyproject.yaml` file.
-
+Suggestion is to use `uv` as package manager or `pip` to install packages as a venv from the `pyproject.toml` file.
 To compile, a file called `secrets.yaml` must exist with your wifi credentials similar to
 
 ```yaml
